@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  padding: 30px;
+  background: linear-gradient(to right, #3a7bd5 0%, #00d2ff 100%);
+box-shadow: 0 3px 4px 3px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
+  border-radius: 3px;
+}
+
+#drum-machine {
+  background: #aae;
+  padding: 15px;
+  
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
+  justify-content: space-evenly;
+  background-color: transparent;
+  grid-gap: 10px;
+}
