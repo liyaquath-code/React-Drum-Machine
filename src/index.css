@@ -8,6 +8,11 @@ body {
   font-family: 'Cairo', sans-serif;
   font-weight: 700;
   
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  
   display: flex;
   justify-content: center;
   align-items: center;
